@@ -2,7 +2,7 @@
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
-  <title>CodePen - Incremental RPG v0.6</title>
+  <title>Energize Idle</title>
   <link rel='stylesheet' href='https://netdna.bootstrapcdn.com/bootswatch/3.1.1/superhero/bootstrap.min.css'><link rel="stylesheet" href="./style.css">
 
 </head>
@@ -17,14 +17,14 @@
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-        <h4 class="modal-title" id="myModalLabel">Welcome to Incremental RPG!</h4>
+        <h4 class="modal-title" id="myModalLabel">Welcome to Energize Idle!</h4>
       </div>
       <div class="modal-body">
-        <p>This game was developed to teach myself Javascript. I will continue to build this game until I feel that it is finished. For now, have fun!</p>
-        <p>Feel free to give me some feedback, suggestions or tips by hitting me up on Twitter <a href="https://twitter.com/_SamuelBeard">@_SamuelBeard</a>.</p>
-        <h3>Name Your Town:</h3>
+        <p>Welcome to version 0.1 of Energize Idle!</p>
+        <p>Feel free to give me some feedback, suggestions or tips by pm'ing me on Reddit: u/JIBSIL</p>
+        <h3>Name Your Energy Unit:</h3>
         <input class="form-control" id="town" type="text">
-        <h3>Name Your Mayor:</h3>
+        <h3>Create a Username:</h3>
         <input class="form-control" id="mayor" type="text">
       </div>
       <div class="modal-footer">
@@ -36,13 +36,13 @@
 
 <div class="row header">
   <div class="col-md-12">
-    <h1>Incremental RPG<small> v0.6</small></h1>
+    <h1>Energize Idle<small> v0.1</small></h1>
   </div>
 </div>
 <div class="row">
   <div class="col-md-12">
     <h2><span id="townName"></span></h2>
-    <h3><small>Our Beloved Mayor: </small><span id="mayorName"></span></h3>
+    <h3><small>Your Username: </small><span id="mayorName"></span></h3>
   </div>
 </div>
 <div class="container">
@@ -52,13 +52,13 @@
       
       <div class="alert alert-info alert-dismissable">
         <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
-        <strong>Welcome to Incremental RPG!</strong>
-        <p>To start building your town, click 'Chop Wood', 'Mine Stone' and 'Gather Food' to gather the respective resources.</p>
+        <strong>Welcome to Energize Idle!</strong>
+        <p>To start getting energy, click the Energy button</p>
       </div>
       
 			<div class="row">
 				<div class="col-xs-4">
-					 <button type="button" id="chopWood" class="btn btn-primary btn-block">Chop Wood</button>
+					 <button type="button" id="chopWood" class="btn btn-primary btn-block">Get energy</button>
 				</div>
 				<div class="col-xs-4">
           <button class="btn btn-default btn-block disabled">
